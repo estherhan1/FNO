@@ -112,21 +112,3 @@ To download the pre-trained model weights (`model_fno.pt`) from Google Drive:
 ```bash
 ./toy_task/download_checkpoint.sh
 ```
-
-*(Requires `gdown`)*
-
-## 7\. File Structure
-
-```text
-toy_task/
-├── Data.pt                  # Dataset (Kolmogorov flow)
-├── model_fno.pt             # Trained model weights
-├── train.py                 # Main training script (with WandB logging)
-├── visualize_error.py       # Visualization script (Error maps & Resolution tests)
-├── download_checkpoint.sh   # Script to fetch weights
-├── README.md                # Project report
-└── figures/                 # Generated images
-    ├── error_map.png
-    ├── result_128x128.png
-    └── fno_training_curve.png
-```
