@@ -1,0 +1,5 @@
+neuraloperator/
+Data.pt
+*.pt
+wandb/
+__pycache__/
