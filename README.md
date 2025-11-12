@@ -85,6 +85,22 @@ A key advantage of FNO is its ability to generalize to different spatial resolut
 
 *(Prediction on 128x128 resolution using bicubic interpolation for input)*
 
+### Resolution examples (visual)
+
+Below are example predictions at three resolutions (32×32, 64×64, 128×128). Each row shows: Input (vector components), Ground Truth, and Model Prediction (fields or magnitudes as in the visualizations).
+
+#### 32×32
+
+![Resolution 32x32](figures/32.png)
+
+#### 64×64
+
+![Resolution 64x64](figures/64.png)
+
+#### 128×128
+
+![Resolution 128x128](figures/128.png)
+
 ## 6\. Usage
 
 ### Requirements
