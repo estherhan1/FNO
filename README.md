@@ -43,19 +43,15 @@ The model was trained for 100 epochs. The training curve shows stable convergenc
 | **Final Train Loss** | \~0.75 |
 | **Final Test Loss** | \~0.90 |
 | **Optimizer** | AdamW |
-| **Model Parameters** | [cite_start]\~2.3M [cite: 43, 59] |
+| **Model Parameters** | \~2.3M 
 
-*(Training and validation loss curves)*
-
-![Training Curve](figures/fno_training_curve.png)
 
 ## 4\. Visualizations & Error Analysis (Task 1 & 3)
 
 ### Prediction vs Ground Truth ($64 \times 64$)
 
-The model successfully captures the complex structure of the vortices. [cite_start]Below is the visualization of the Input, Ground Truth, and Prediction[cite: 14, 19].
+The model successfully captures the complex structure of the vortices. 
 
-*(From WandB media logs)*
 
 ![Prediction Samples - coolwarm](figures/visualize_samples_coolwarm.png)
 
@@ -80,7 +76,7 @@ The model successfully captures the complex structure of the vortices. [cite_sta
 
 ## 5\. Resolution Tests (Zero-Shot Super-Resolution) (Task 6)
 
-A key advantage of FNO is its ability to generalize to different spatial resolutions without retraining. [cite_start]We evaluated the model (trained on $64 \times 64$) on $32 \times 32$ and $128 \times 128$ inputs [cite: 23-24].
+A key advantage of FNO is its ability to generalize to different spatial resolutions without retraining. We evaluated the model (trained on $64 \times 64$) on $32 \times 32$ and $128 \times 128$ inputs.
 
 | Resolution | Test Loss | Observation |
 | :--- | :--- | :--- |
